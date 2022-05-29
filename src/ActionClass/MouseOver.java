@@ -27,6 +27,7 @@ public class MouseOver {
 		driver.findElement(By.xpath("//input[@name='txtUsername']")).sendKeys("Admin");
 		driver.findElement(By.xpath("//input[@name='txtPassword']")).sendKeys("admin123");
 		driver.findElement(By.xpath("//input[@id='btnLogin']")).click();
+		// edited by me
 	}
 
 	@Test(priority =3)
